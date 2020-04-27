@@ -726,7 +726,7 @@ impl Config {
         self.cc_algorithm = algo;
     }
 
-    /// Configures whether to enable HyStart++
+    /// Configures whether to enable HyStart++.
     ///
     /// The default value is `true`.
     pub fn set_hystart(&mut self, v: bool) {
