@@ -6016,6 +6016,8 @@ mod tests {
     }
 }
 
+pub use crate::frame::Frame;
+pub use crate::octets::Octets;
 pub use crate::packet::Header;
 pub use crate::packet::Type;
 pub use crate::recovery::CongestionControlAlgorithm;
